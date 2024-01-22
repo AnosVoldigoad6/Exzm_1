@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.table{
+    width: 95%;
+    height: 580px;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    border-collapse:collapse;
+    background-color: #1B1A1F;
+   
+}
+
+.tr1{
+    border: 1px solid gray;
+    border-left: none;
+    border-right: none;
+}
+.newbar{
+    display: flex;
+    align-items: center;
+}
+
+.ava{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.name{
+    font-size: 17px;
+    margin-left: 20px;
+    color: white;
+}
+
+.adress{
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.active{
+    color: rgb(8, 197, 8);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.inactive{
+    color: red;
+     font-size: 16px;
+    font-weight: 600;
+}
+
+
+.btnEdit{
+    width: 20px;
+    height: 20px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.btnDelet{
+    width: 20px;
+    height: 20px;
+    border: none;
+    margin-left: 10px;
+    cursor: not-allowed;
+}
+
+.chek{
+    width: 17px;
+    height: 17px;
+    margin-left: 15px;
+}
